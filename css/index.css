@@ -6,3 +6,13 @@
     padding: 10px;
     margin: 50px; */
 }
+table,
+th,
+td {
+    border: 3px solid rgb(51, 2, 58);
+    border-collapse: collapse;
+    color: blue;
+    position: relative;
+    left: 100px;
+    padding: 10px;
+}

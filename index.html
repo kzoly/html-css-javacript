@@ -5,6 +5,7 @@
     <title>Test html page</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/employees.js"></script>
 </head>
 
 <body>
@@ -13,6 +14,8 @@
         <ul class="menu">
             <li>Home</li>
             <li><a href="employees.html">Employees</a></li>
+            <li><a href="ContactUs.html">ContactUs</a></li>
+
         </ul>
     </div>
 
@@ -33,7 +36,31 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/k-jhzr-bIXM" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+            allowfullscreen>
+        </iframe>
+        <br>
+        <br>
+        <div>
+            <input type="text" id="employeename" placeholder="Employee name...">
+            <label id="label">Name</label>
+            <button onclick="addelement()">clic here</button>
+            <p id="inputfield"></p>
+            <button onclick="clearinput()">Clear input field</button>
+    
+        </div>
+        <div>
+            <input type="text" id="employeename2" placeholder="Employee name...">
+            <label id="label">Name</label>
+            <button onclick="addelement2()">clic here</button>
+            <p id="inputfield"></p>
+    
+            <table id="tableId">
+                <tbody id="tblbody">
+    
+                </tbody>
+            </table>
+    
+        </div>
     </div>
 </body>
 
