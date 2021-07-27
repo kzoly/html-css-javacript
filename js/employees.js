@@ -48,21 +48,21 @@ function buildtable(data){
     {
      tableRef.deleteRow(0);
     
-   }
+    }
 
-        var table=document.getElementById('tblbody')
+    var table=document.getElementById('tblbody')
     for(var i=0;i<data.length;i++)
     {
         var row = `<tr>
 							<td>${data[i]}</td>
 							<td> <button onclick="deleteelement(${i})">Delete</button></td>
-					  </tr>`
-             table.innerHTML+=row;    
+					    </tr>`
+        table.innerHTML+=row;    
     }
 }
 function deleteelement(i){
-employee.splice(i,1);
-buildtable(employee);
+    employee.splice(i,1);
+    buildtable(employee);
 }
 
 function jsonstringify()
