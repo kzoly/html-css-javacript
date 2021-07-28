@@ -3,15 +3,27 @@ th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
-    color: blue;
+    color:coral;
 }
 
 .hideSalary {
     display: none;
 }
 
+
 form {
     display: inline-block;
     width: 200px;
     text-align: left;
 }
+table a:link,table a:visited {
+    color:firebrick;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  table a:hover,table a:active {
+   background: rgb(0, 0, 0,.4);
+  }

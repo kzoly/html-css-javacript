@@ -9,9 +9,9 @@
 table,
 th,
 td {
-    border: 3px solid rgb(51, 2, 58);
+    border: 3px solid rgb(64, 106, 146);
     border-collapse: collapse;
-    color: blue;
+    color:burlywood;
     position: relative;
     left: 100px;
     padding: 10px;

@@ -43,14 +43,14 @@ function clearinput()
 }
 
 function buildtable(data){
-    var tableRef = document.getElementById('tableId');
+    var tableRef = document.getElementById('tableId2');
     while ( tableRef.rows.length > 0 )
     {
      tableRef.deleteRow(0);
     
     }
 
-    var table=document.getElementById('tblbody')
+    var table=document.getElementById('tblbody2')
     for(var i=0;i<data.length;i++)
     {
         var row = `<tr>
@@ -67,10 +67,11 @@ function deleteelement(i){
 
 function jsonstringify()
 {
-    const obj={name:document.getElementById("fname").value,
-               function:document.getElementById("ffunction").value,
-               salary:document.getElementById("fsalary").value
-            };
+    const obj={
+        name:document.getElementById("fname").value,
+        function:document.getElementById("ffunction").value,
+        salary:document.getElementById("fsalary").value
+     };
     const myjson=JSON.stringify(obj);
     alert(myjson);
 }
